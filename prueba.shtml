@@ -1,0 +1,114 @@
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/assets/css/animate.css?v=xiwcddaszr">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/assets/css/slick.css?v=xiwcddaszr">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/assets/css/slick-theme.css?v=xiwcddaszr">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/assets/css/main.css?v=xiwcddaszr">
+<section class="banner-main">
+  <div class="row">
+    <div class="banner-home text-center">
+      <div class="slider-drag1 ">
+        <div class="slider-header slider-header-1 b-lazy">
+          <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/product/2585359/Escritorio-Dexter/?cid=vtrlnd12368" title="Escritorio Dexter" onclick="ga('send', 'event', '2018_2_Landing_Home_LandingMuebles', 'Click', 'Boton_ProductoEscritorioDexter')">
+            <div class=" contenedor-logo">
+              <img class="logo-banner img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/banner/logo-banner.png" alt="logo-banner">
+            </div>
+          </a>
+        </div>
+        <div class="slider-header slider-header-2 b-lazy">
+          <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/product/2580942/Escritorio-de-melamina/?cid=vtrlnd12369" title="Set de escritorio + estante" onclick="ga('send', 'event', '2018_2_Landing_Home_LandingMuebles', 'Click', 'Boton_ProductoEscritorioEstante')">
+            <div class=" contenedor-logo">
+              <img class="logo-banner img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/banner/logo-banner.png" alt="logo-banner">
+            </div>
+          </a>
+        </div>
+        <div class="slider-header slider-header-3 b-lazy">
+          <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/product/1719785/Set-de-mesa-Lapices-60x40cm-y-2-sillas/?cid=vtrlnd12370" title="Set de mesa infantil + 2 sillas" onclick="ga('send', 'event', '2018_2_Landing_Home_LandingMuebles', 'Click', 'Boton_ProductoMesaInfantilSillas')">
+            <div class="  contenedor-logo">
+              <img class="logo-banner img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/banner/logo-banner.png" alt="logo-banner">
+            </div>
+          </a>
+        </div>
+        <div class="slider-header slider-header-4 b-lazy">
+          <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/product/1719785/Set-de-mesa-Lapices-60x40cm-y-2-sillas/?cid=vtrlnd12370" title="Set de mesa infantil + 2 sillas" onclick="ga('send', 'event', '2018_2_Landing_Home_LandingMuebles', 'Click', 'Boton_ProductoMesaInfantilSillas')">
+            <div class="  contenedor-logo">
+              <img class="logo-banner img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/banner/logo-banner.png" alt="logo-banner">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- fin section banner-home -->
+<div class="pad-0  col-xs-12 col-md-8 pad-left">
+  <div class="row">
+    <div class="col-md-6 pad-0 pad-left pad-bottom">
+      <div class="content-section" id="prepara_tribuna">
+        <div class="cont-img bg-flipper animation-bg">
+          <!-- <img class="img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/section/mobile/prepara_tribuna.jpg" alt=""> -->
+        </div>
+        <div class="text-section">
+          <a class="call-action" href="">PREPARA TU TRIBUNA</a>
+          <p class="title-section">- TIPS Y RECETAS DE PIQUEOS - </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 pad-0 pad-left pad-right pad-bottom">
+      <div class="content-section" id="demuestra_hincha">
+        <div class="cont-img bg-change bg-movil">
+  <img class="img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/section/demuestra_hincha.png" alt="">
+
+        </div>
+        <div class="text-section">
+          <a class="call-action" href="">ASUME EL RETO</a>
+          <p class="title-section title-white">- TRIVIAS Y RANKINGS - </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-md-12 pad-0 pad-left pad-right pad-bottom">
+      <div class="content-section" id="modo_mundial">
+        <div class="cont-img ">
+          <img class="img-responsive hidden-md hidden-lg" src="/static/categorias/contenidoEstatico/landings/assets/img/section/mobile/modo_mundial.jpg" alt="">
+          <img class="img-responsive hidden-xs hidden-sm" src="/static/categorias/contenidoEstatico/landings/assets/img/section/desktop/modo_mundial.jpg" alt="">
+        </div>
+        <div class="text-section">
+          <a class="call-action" href="">CELEBRA EN MODO <span class="lightWord">MUNDIALISTA</span> </a>
+          <p class="title-section ">- AGENDA DEL HINCHA - </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="pad-0  col-xs-12 col-md-4 pad-left pad-right">
+  <div class="content-section" id="tribuna_historia">
+    <div class="cont-img">
+      <img class="img-responsive hidden-md hidden-lg" src="/static/categorias/contenidoEstatico/landings/assets/img/section/mobile/tribuna_historia.jpg" alt="">
+      <img class="img-responsive hidden-xs hidden-sm" src="/static/categorias/contenidoEstatico/landings/assets/img/section/desktop/tribuna_historia.jpg" alt="">
+    </div>
+    <div class="text-section">
+      <a class="call-action" href=""><img class="img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/section/sigue_mundial.png" alt=""></a>
+      <p class="title-section title-white">- VIDEOS Y TESTIMONIOS - </p>
+    </div>
+  </div>
+</div>
+<div class="pad-0  col-xs-12">
+  <div class="content-section" id="tienes_verlo">
+    <div class="cont-img">
+      <img class="img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/section/tienes_verlo.png" alt="">
+    </div>
+    <div class="text-section">
+      <a class="call-action" href="">AQUÍ</a>
+    </div>
+  </div>
+</div>
+<script src="/static/categorias/contenidoEstatico/landings/assets/jquery.min.js?v=xiwcddaszr"></script>
+<script src="/static/categorias/contenidoEstatico/landings/assets/js/owl.carousel.min.js?v=xiwcddaszr"></script>
+<script src="/static/categorias/contenidoEstatico/landings/assets/js/slick.js?v=xiwcddaszr"></script>
+<script src="/static/categorias/contenidoEstatico/landings/assets/js/carrusel.js?v=xiwcddaszr"></script>
+<script src="/static/categorias/contenidoEstatico/landings/assets/js/app.js?v=xiwcddaszr"></script>
+<script>
+  $(document).ready(function() {
+    $('.slick-prev').html('<img class="arrow arrow-left glyphicon glyphicon-menu-left" src="/static/categorias/contenidoEstatico/landings/assets/img/section/arrow-left.svg"></img>');
+    $('.slick-next').html('<img class="arrow arrow-right glyphicon glyphicon-menu-right" src="/static/categorias/contenidoEstatico/landings/assets/img/section/arrow-right.svg"></img>');
+  });
+</script>

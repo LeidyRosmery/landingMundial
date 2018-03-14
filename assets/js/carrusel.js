@@ -30,26 +30,44 @@ swipe:true,
       ]
     });
 
-    $('.slider-nav').slick({
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      dots: false,
-      arrows: true,
-      nextArrow: '<img class="flecha flecha-right" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/arrow-right.svg"></img>',
-      prevArrow: '<img class="flecha flecha-left" src="/static/categorias/contenidoEstatico/landings/Landing-Muebles-2018/assets/img/arrow-left.svg"></img>',
-      centerMode: true,
-      focusOnSelect: true,
-      responsive: [{
+    $('.center').slick({
+    centerMode: true,
+    infinite: true,
+    centerPadding: '60px',
+    slidesToShow: 1,
+    autoplay:true,
+    speed: 500,
+    variableWidth: false,
+    responsive: [{
         breakpoint: 992,
-        settings: "unslick"
-      }]
-    });
+        settings: {
+          slidesToShow: 1,
+          centerMode:false,
+                  doots:true,
+          slidesToShow:3,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          doots:false,
+        }
+      }
+    ]
+  });
+  $('.center').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    console.log('beforeChange', currentSlide, nextSlide);
+  });
+  $('.center').on('afterChange', function(event, slick, currentSlide){
+    console.log('afterChange', currentSlide);
+  });
 
     $(window).on('resize orientationchange', function() {
-      $('.slider-nav').slick('resize');
+      $('.center').slick('resize');
     });
 
 
-    ;
+
 
   });
