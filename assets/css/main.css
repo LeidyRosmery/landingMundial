@@ -655,6 +655,73 @@ font-family: hand;
     height: 455px;
     z-index: 23;
   }
+  .timer{
+    margin-bottom: 35px;
+    font-size: 2.6em;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .paralelogramo{
+    width: 160px;
+font-size: 1.5em;
+display: inline-block;
+    margin: 0 20px;
+    height: 70px;
+  }
+  .txt-title{
+    font-size: 3em;
+  }
+  .header-fixture p:nth-child(1) {
+    font-size: 3em;
+    color: #fff;
+}
+
+.title-tribuna{
+  font-size: 3em;
+      height: 145px;
+      padding: 20px 0;
+}
+/* .title-tribuna p:nth-child(1) {
+  font-family: miso;
+}
+
+.title-tribuna p:nth-child(2) {
+  color: #dd0021;
+  font-family: hand;
+} */
+#camino_rusia .cont-img {
+
+    height: 70vh;
+}
+
+.header-fixture {
+  margin-bottom: 40px;
+  color: #fff;
+     background-image: url(../img/fixture/bg-fixture.jpg);
+     background-size: 500px;
+     background-repeat: no-repeat;
+
+}
+.header-fixture:before {
+  content: '';
+      position: absolute;
+      border-width: 18px;
+      transition: all 1s;
+      border-color: #DD0021 #ebebeb #ebebeb #ebebeb;
+      bottom: 48.8vh;
+      border-style: solid;
+      right: 0;
+      left: 0;
+      width: 0;
+      height: 0;
+      margin: 0 auto;
+}
+  .txt-red{
+    font-family: hand;
+    color: #DD0021;
+    margin: 0 15px;
+
+  }
   .slider-header-1 {
     background-image: url(../img/banner/desktop/banner1-desktop.jpg);
   }
@@ -668,8 +735,25 @@ font-family: hand;
   /* css section */
   /* ******************************************* */
   .cont-img {
-    height: 60vh;
+    height: 70vh;
     background: #DEEFFE;
+  }
+  .cont-header{
+    line-height: 40px;
+    font-size: 2.6em;
+  }
+  #arma_tribuna .cont-img {
+    height: 50vh;
+}
+#arma_tribuna .content-section {
+    opacity: 1;
+}
+.description-prod {
+    opacity: 1;
+}
+.slider-productos {
+
+    margin-bottom: 30px;
   }
   .title-section {
     padding: 15px 0 0;
