@@ -446,25 +446,25 @@
           </section>
           <script type="text/javascript" language="javascript">
             /*
-                                                                                                                                                                                                                                                                                                            You can use below ways to define rule.
-                                                                                                                                                                                                                                                                                                            1. "checkName" : {"msg":"your error message"}.
-                                                                                                                                                                                                                                                                                                            2. "checkName" : {"regex":"your regex expression","msg":"your error message"}.
+                                                                                                                                                                                                                                                                                                                                    You can use below ways to define rule.
+                                                                                                                                                                                                                                                                                                                                    1. "checkName" : {"msg":"your error message"}.
+                                                                                                                                                                                                                                                                                                                                    2. "checkName" : {"regex":"your regex expression","msg":"your error message"}.
 
-                                                                                                                                                                                                                                                                                                            For 1, you should add the mapping into validator.funMapping, such as:
-                                                                                                                                                                                                                                                                                                                validator.funMapping["your checkName"]= your check method for this check name.
-                                                                                                                                                                                                                                                                                                                validator.funMapping["test"]=validator.checkTest;
-                                                                                                                                                                                                                                                                                                                In the jsp, you can use it like this.  class="validate[test]"
+                                                                                                                                                                                                                                                                                                                                    For 1, you should add the mapping into validator.funMapping, such as:
+                                                                                                                                                                                                                                                                                                                                        validator.funMapping["your checkName"]= your check method for this check name.
+                                                                                                                                                                                                                                                                                                                                        validator.funMapping["test"]=validator.checkTest;
+                                                                                                                                                                                                                                                                                                                                        In the jsp, you can use it like this.  class="validate[test]"
 
-                                                                                                                                                                                                                                                                                                            For 2. You only need to use it in the jsp like this. class="custom[checkName]".
+                                                                                                                                                                                                                                                                                                                                    For 2. You only need to use it in the jsp like this. class="custom[checkName]".
 
-                                                                                                                                                                                                                                                                                                            For1 & 2, you can add a special error/success message render function. Sample:
-                                                                                                                                                                                                                                                                                                                "required" : {
-                                                                                                                                                                                                                                                                                                                    (required)"msg" : "error message",
-                                                                                                                                                                                                                                                                                                                    (optional)"regex" : "your regex expression",
-                                                                                                                                                                                                                                                                                                                    (optional)"succCall" : validator.requiredSuccCall,
-                                                                                                                                                                                                                                                                                                                    (optional)"errorCall" : validator.requiredErrorCall
-                                                                                                                                                                                                                                                                                                                }
-                                                                                                                                                                                                                                                                                                            */
+                                                                                                                                                                                                                                                                                                                                    For1 & 2, you can add a special error/success message render function. Sample:
+                                                                                                                                                                                                                                                                                                                                        "required" : {
+                                                                                                                                                                                                                                                                                                                                            (required)"msg" : "error message",
+                                                                                                                                                                                                                                                                                                                                            (optional)"regex" : "your regex expression",
+                                                                                                                                                                                                                                                                                                                                            (optional)"succCall" : validator.requiredSuccCall,
+                                                                                                                                                                                                                                                                                                                                            (optional)"errorCall" : validator.requiredErrorCall
+                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                    */
             function initRules() {
               allRules = {
                 //Have the single function checking.
@@ -2748,8 +2748,8 @@ color: white !important;
 
           <script type="text/javascript">
             /**
-                                                                                                                                                                                                                                                                                                            $( ".sub-nav.jq-subNav>li:first-child").before( "<li class='firstHover' ><a  href='http://www.sodimac.com.pe/sodimac-pe/content/a260001/Cyber-Peru-Sodimac' target='_self' title='Cyber Days'>Cyber Days</a></li>" );
-                                                                                                                                                                                                                                                                                                            console.log("prueba1");**/
+                                                                                                                                                                                                                                                                                                                                    $( ".sub-nav.jq-subNav>li:first-child").before( "<li class='firstHover' ><a  href='http://www.sodimac.com.pe/sodimac-pe/content/a260001/Cyber-Peru-Sodimac' target='_self' title='Cyber Days'>Cyber Days</a></li>" );
+                                                                                                                                                                                                                                                                                                                                    console.log("prueba1");**/
 
 
             $(".categoryDropdown1 > .sub-nav.jq-subNav>li:first-child").before("<li class='firstHover' ><a  href='http://www.sodimac.com.pe/sodimac-pe/CMR/N-1z141ek' target='_self' title='Imbatibles CMR'>Imbatibles CMR</a></li>");
@@ -3124,7 +3124,7 @@ color: white !important;
         <section class="banner-main">
           <div class="row">
             <div class="banner-home text-center">
-              <div class="slider-drag1 ">
+              <div class="slider-drag1 vitrina">
                 <div class="slider-header slider-header-1 b-lazy">
                   <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/product/2585359/Escritorio-Dexter/?cid=vtrlnd12368" title="Escritorio Dexter" onclick="ga('send', 'event', '2018_2_Landing_Home_LandingMuebles', 'Click', 'Boton_ProductoEscritorioDexter')">
                     <div class=" contenedor-logo">
@@ -3155,19 +3155,81 @@ color: white !important;
                 </div>
               </div>
             </div>
+            <div class="timer col-xs-12 pad-0">
+              <div class="text-timer col-xs-4 text-center pad-0">YA SOLO FALTAN
+
+              </div>
+              <div class="col-xs-4 paralelogramo pad-0"> 92 <span class="day-timer">días</span>
+
+              </div>
+              <div class="text-timer col-xs-4 text-center pad-0"> PARA EL MUNDIAL
+
+              </div>
+            </div>
           </div>
         </section>
         <!-- fin section banner-home -->
         <div class="pad-0  col-xs-12  pad-left pad-right">
           <div class="row" style="margin:0">
             <div class="col-md-4 pad-0 pad-left pad-bottom">
-              <div class="content-section" id="prepara_tribuna">
+              <div class="content-section text-center" id="prepara_tribuna">
+                <div class="txt-title">PREPARA TU TRIBUNA
+                </div>
                 <div class="cont-img bg-flipper animation-bg">
-                  <!-- <img class="img-responsive" src="/assets/img/section/mobile/prepara_tribuna.jpg" alt=""> -->
                 </div>
                 <div class="text-section">
-                  <a class="call-action" href="">PREPARA TU TRIBUNA</a>
-                  <p class="title-section">- TIPS Y RECETAS DE PIQUEOS - </p>
+                  <a class="call-action" href="">MIRA LOS TIPS AQUI</a>
+                  <p class="title-section">- Tips e ideas - </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pad-0 pad-left pad-bottom hidden-md hidden-lg">
+              <div class="" id="arma_tribuna">
+                <div class="title-tribuna text-center">
+                  <p>LOS IMPERDIBLES PARA ARMAR</p>
+                  <p>tu tribuna</p>
+                </div>
+                <div class="center">
+                  <div class="content-section b-lazy">
+                    <div class="cont-img ">
+                      <img class="img-responsive" src="/assets/img/productos/prod1.png" alt="">
+                    </div>
+                    <div class="description-prod text-center">
+                        <p class="product-name" >LG Smart TV LED HD 32"</p>
+                        <p class="product-price" >S/. 1200.00</p>
+                        <a  class="product-detail" href="">VER PRODUCTO ></a>
+                    </div>
+                  </div>
+                  <div class="content-section b-lazy">
+                    <div class="cont-img">
+                      <img class="img-responsive" src="/assets/img/productos/prod2.png" alt="">
+                    </div>
+                    <div class="description-prod text-center">
+                        <p class="product-name" >LG Smart TV LED HD 32"</p>
+                        <p class="product-price" >S/. 1200.00</p>
+                        <a  class="product-detail" href="">VER PRODUCTO ></a>
+                    </div>
+                  </div>
+                  <div class="content-section b-lazy">
+                    <div class="cont-img">
+                      <img class="img-responsive" src="/assets/img/productos/prod3.png" alt="">
+                    </div>
+                    <div class="description-prod text-center">
+                        <p class="product-name" >LG Smart TV LED HD 32"</p>
+                        <p class="product-price" >S/. 1200.00</p>
+                        <a  class="product-detail" href="">VER PRODUCTO ></a>
+                    </div>
+                  </div>
+                  <div class="content-section b-lazy">
+                    <div class="cont-img">
+                      <img class="img-responsive" src="/assets/img/productos/prod4.png" alt="">
+                    </div>
+                    <div class="description-prod text-center">
+                        <p class="product-name" >LG Smart TV LED HD 32"</p>
+                        <p class="product-price" >S/. 1200.00</p>
+                        <a  class="product-detail" href="">VER PRODUCTO ></a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -3182,6 +3244,42 @@ color: white !important;
                 </div>
               </div>
             </div>
+            <div class="col-md-4 pad-0  pad-right  hidden-md hidden-lg">
+            <div id="slider-fixture">
+              <div class="slider-drag1">
+                <div class="col-xs-12 col-md-6 pad-0 pad-bottom pad-left">
+                  <div class="content-section" id="estamos_devuelta">
+                    <div class="cont-header">
+                      <p>TU ALBÚM Y FIGURITAS</p>
+                      <p>en Sodimac</p>
+                    </div>
+                    <div class="cont-img ">
+                      <img class="img-responsive" style="height: 100%;" src="/assets/img/section/mobile/estamos_devuelta.jpg" alt="">
+                    </div>
+                    <div class="text-section">
+                      <a class="call-action" href="">VER MÁS</a>
+                      <!-- <p class="title-section title-white">- Busca tu albúm y figuritas en Sodimac - </p> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6 pad-0 pad-bottom pad-left pad-right">
+                  <div class="content-section" id="tribuna_terraza">
+                    <div class="cont-header">
+                      <p>CONVIERTE TU TERRAZA</p>
+                      <p>en tu tribuna</p>
+                    </div>
+                    <div class="cont-img">
+                      <img class="img-responsive" style="height: 100%;" src="/assets/img/section/mobile/arma_tribuna.jpg" alt="">
+                    </div>
+                    <div class="text-section">
+                      <a class="call-action" href="">VER MÁS</a>
+                      <!-- <p class="title-section title-white">- Equipa tu terraza y vive la fiesta del fútbol en Sodimac - </p> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
             <div class="col-md-4 pad-0  pad-right pad-bottom">
               <div class="content-section" id="camino_rusia">
                 <div class="cont-img ">
@@ -3191,36 +3289,45 @@ color: white !important;
                   </div>
                   <div class="content-fixture">
                     <div class="bag-dots row" style="margin:0">
-                      <div class="col-xs-3 pad-0">
-                        <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt=""><span class="fixture-country">PERU</span>
+                      <div class="col-xs-3 text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="">
+                        <p class="fixture-country">PERU</p>
                       </div>
                       <div class="col-xs-6 text-center pad-0">
-                        <span class="time-fixture">29 MAYO</span> <span class="place-fixture">/ Lima</span>
+                        <p class="time-fixture">29 MAYO</p>
+                        <p class="place-fixture">/ Lima</p>
                       </div>
-                      <div class="col-xs-3 pad-0">
-                        <img class="img-flag" src="/assets/img/fixture/flag_escocia.png" alt=""><span class="fixture-country">ESCOCIA</span>
+                      <div class="col-xs-3 text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_escocia.png" alt="">
+                        <p class="fixture-country">ESCOCIA</p>
+                      </div>
+                    </div>
+                    <div class="bag-dots row" style="margin:0">
+                      <div class="col-xs-3 text-center text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="">
+                        <p class="fixture-country">PERU</p>
+                      </div>
+                      <div class="col-xs-6 text-center pad-0">
+                        <p class="time-fixture">03 JUNIO</p>
+                        <p class="place-fixture">/ Altach</p>
+                      </div>
+                      <div class="col-xs-3 text-center text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_arabia.png" alt="">
+                        <p class="fixture-country">ARABIA</p>
                       </div>
                     </div>
                     <div class="bag-dots row" style="margin:0">
                       <div class="col-xs-3 text-center pad-0">
-                        <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt=""><p class="fixture-country">PERU</p>
+                        <img class="img-flag" src="/assets/img/fixture/flag_suecia.png" alt="">
+                        <p class="fixture-country">SUECIA</p>
                       </div>
                       <div class="col-xs-6 text-center pad-0">
-                        <span class="time-fixture">03 JUNIO</span> <span class="place-fixture">/ Altach</span>
+                        <p class="time-fixture">09 JUNIO</p>
+                        <p class="place-fixture">/ Estocolmo</p>
                       </div>
                       <div class="col-xs-3 text-center pad-0">
-                        <img class="img-flag" src="/assets/img/fixture/flag_arabia.png" alt=""><p class="fixture-country">ARABIA</p>
-                      </div>
-                    </div>
-                    <div class="bag-dots row" style="margin:0">
-                      <div class="col-xs-3 pad-0">
-                        <img class="img-flag" src="/assets/img/fixture/flag_suecia.png" alt=""><p class="fixture-country">SUECIA</p>
-                      </div>
-                      <div class="col-xs-6 text-center pad-0">
-                        <span class="time-fixture">09 JUNIO</span> <span class="place-fixture">/ Estocolmo</span>
-                      </div>
-                      <div class="col-xs-3 pad-0">
-                        <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt=""><p class="fixture-country">PERU</p>
+                        <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="">
+                        <p class="fixture-country">PERU</p>
                       </div>
                     </div>
                   </div>
@@ -3229,80 +3336,105 @@ color: white !important;
             </div>
           </div>
         </div>
-
-        <div class="pad-0  col-xs-12  pad-left pad-right pad-bottom">
+        <div class="pad-0  col-xs-12 pad-left pad-right hidden-xs hidden-sm">
           <div class="" id="arma_tribuna">
             <div class="title text-center">
-              <p>IMPRESCINDIBLES PARA ARMAR</p>
+              <p>LOS IMPERDIBLES PARA ARMAR</p>
               <p>tu tribuna</p>
             </div>
-            <div class="center">
-              <div class="content-section" id="arma_tribuna">
-                <div class="cont-img">
-                  <img class="img-responsive" src="/assets/img/productos/prod1.jpeg" alt="">
-                </div>
-              </div>
-              <div class="content-section" id="arma_tribuna">
-                <div class="cont-img">
-                  <img class="img-responsive" src="/assets/img/productos/prod2.jpeg" alt="">
-                </div>
-              </div>
-              <div class="content-section" id="arma_tribuna">
-                <div class="cont-img">
-                  <img class="img-responsive" src="/assets/img/productos/prod3.jpeg" alt="">
-                </div>
-              </div>
-              <div class="content-section" id="arma_tribuna">
-                <div class="cont-img">
-                  <img class="img-responsive" src="/assets/img/productos/prod4.jpeg" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="pad-0  col-xs-12 pad-left pad-right">
-          <div class="row">
-            <div class="col-xs-12 col-md-6 pad-0 pad-bottom pad-left">
-              <div class="content-section" id="estamos_devuelta">
+            <div class="slider-productos">
+              <div class="content-section">
                 <div class="cont-img ">
-                  <img class="img-responsive" style="height: 100%;" src="/assets/img/section/mobile/estamos_devuelta.jpeg" alt="">
+                  <img class="img-responsive" src="/assets/img/productos/prod1.png" alt="">
                 </div>
-                <div class="text-section">
-                  <a class="call-action" href="">VER MÁS</a>
-                  <p class="title-section title-white">- Busca tu albúm y figuritas en Sodimac - </p>
+                <div class="description-prod text-center">
+                    <p class="product-name" >LG Smart TV LED HD 32"</p>
+                    <p class="product-price" >S/. 1200.00</p>
+                    <!-- <a  class="product-detail" href="">VER PRODUCTO ></a> -->
                 </div>
               </div>
-            </div>
-            <div class="col-xs-12 col-md-6 pad-0 pad-bottom pad-left pad-right">
-              <div class="content-section" id="tribuna_terraza">
+              <div class="content-section">
                 <div class="cont-img">
-                  <img class="img-responsive" style="height: 100%;" src="/assets/img/section/mobile/arma_tribuna.jpeg" alt="">
+                  <img class="img-responsive" src="/assets/img/productos/prod2.png" alt="">
                 </div>
-                <div class="text-section">
-                  <a class="call-action" href="">VER MÁS</a>
-                  <p class="title-section title-white">- Equipa tu terraza y vive la fiesta del fútbol en Sodimac - </p>
+                <div class="description-prod text-center">
+                    <p class="product-name" >LG Smart TV LED HD 32"</p>
+                    <p class="product-price" >S/. 1200.00</p>
+                    <!-- <a  class="product-detail" href="">VER PRODUCTO ></a> -->
+                </div>
+              </div>
+              <div class="content-section">
+                <div class="cont-img">
+                  <img class="img-responsive" src="/assets/img/productos/prod3.png" alt="">
+                </div>
+                <div class="description-prod text-center">
+                    <p class="product-name" >LG Smart TV LED HD 32"</p>
+                    <p class="product-price" >S/. 1200.00</p>
+                    <!-- <a  class="product-detail" href="">VER PRODUCTO ></a> -->
+                </div>
+              </div>
+              <div class="content-section">
+                <div class="cont-img">
+                  <img class="img-responsive" src="/assets/img/productos/prod4.png" alt="">
+                </div>
+                <div class="description-prod text-center">
+                    <p class="product-name" >LG Smart TV LED HD 32"</p>
+                    <p class="product-price" >S/. 1200.00</p>
+                    <a  class="product-detail" href="">VER PRODUCTO ></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
-
-
-
+        <div class="pad-0  col-xs-12  pad-left pad-right hidden-xs hidden-sm pad-bottom">
+          <div class="row" style="margin:0">
+          <div class="col-xs-12 col-md-6 pad-0 pad-bottom pad-left">
+            <div class="content-section" id="estamos_devuelta">
+              <div class="cont-header">
+                <p>TU ALBÚM Y FIGURITAS</p>
+                <p>en Sodimac</p>
+              </div>
+              <div class="cont-img ">
+                <img class="img-responsive" style="height: 100%;" src="/assets/img/section/mobile/estamos_devuelta.jpg" alt="">
+              </div>
+              <div class="text-section">
+                <a class="call-action" href="">VER MÁS</a>
+                <p class="title-section title-white">- Busca tu albúm y figuritas en Sodimac - </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 pad-0 pad-bottom pad-left pad-right">
+            <div class="content-section" id="tribuna_terraza">
+              <div class="cont-header">
+                <p>CONVIERTE TU TERRAZA</p>
+                <p>en tu tribuna</p>
+              </div>
+              <div class="cont-img">
+                <img class="img-responsive" style="height: 100%;" src="/assets/img/section/mobile/arma_tribuna.jpg" alt="">
+              </div>
+              <div class="text-section">
+                <a class="call-action" href="">VER MÁS</a>
+                <p class="title-section title-white">- Equipa tu terraza y vive la fiesta del fútbol en Sodimac - </p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
 
         <script src="/assets/jquery.min.js?v=1"></script>
         <script src="/assets/js/owl.carousel.min.js?v=1"></script>
         <script src="/assets/js/slick.js?v=1"></script>
-
         <script src="/assets/js/carrusel.js?v=1"></script>
         <script src="/assets/js/app.js?v=1"></script>
         <script>
           $(document).ready(function() {
             $('.slick-prev').html('<img class="arrow arrow-left glyphicon glyphicon-menu-left" src="/assets/img/section/arrow-left.svg"></img>');
             $('.slick-next').html('<img class="arrow arrow-right glyphicon glyphicon-menu-right" src="/assets/img/section/arrow-right.svg"></img>');
+            $('#arma_tribuna .slick-prev').html('<img class="arrow arrow-left glyphicon glyphicon-menu-left" src="/assets/img/productos/arrow-left.svg"></img>');
+            $('#arma_tribuna .slick-next').html('<img class="arrow arrow-right glyphicon glyphicon-menu-right" src="/assets/img/productos/arrow-right.svg"></img>');
+            $('#slider-fixture .slick-prev').html('<img class="arrow arrow-left glyphicon glyphicon-menu-left" src="/assets/img/productos/arrow-left.svg"></img>');
+            $('#slider-fixture .slick-next').html('<img class="arrow arrow-right glyphicon glyphicon-menu-right" src="/assets/img/productos/arrow-right.svg"></img>');
+
           });
         </script>
 

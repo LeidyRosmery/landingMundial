@@ -2,7 +2,7 @@
     $('.slider-drag1').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
-      dots: true,
+  
       fade: true,
       cssEase: 'linear',
       arrows: true,
@@ -16,6 +16,7 @@
           settings: {
             slidesToShow: 1,
             autoplay: true,
+            dots:false,
           }
         },
         {
@@ -41,10 +42,9 @@ swipe:true,
     responsive: [{
         breakpoint: 992,
         settings: {
-          slidesToShow: 1,
+          slidesToShow:3,
           centerMode:false,
                   doots:true,
-          slidesToShow:3,
         }
       },
       {
@@ -52,16 +52,27 @@ swipe:true,
         settings: {
           slidesToShow: 1,
           doots:false,
+          autoplay:true,
         }
       }
     ]
   });
-  $('.center').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-    console.log('beforeChange', currentSlide, nextSlide);
-  });
-  $('.center').on('afterChange', function(event, slick, currentSlide){
-    console.log('afterChange', currentSlide);
-  });
+  $('.slider-productos').slick({
+  centerMode: true,
+  infinite: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  autoplay:true,
+  // arrows:true;
+  speed: 500,
+  variableWidth: false,
+});
+  // $('.center').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+  //   console.log('beforeChange', currentSlide, nextSlide);
+  // });
+  // $('.center').on('afterChange', function(event, slick, currentSlide){
+  //   console.log('afterChange', currentSlide);
+  // });
 
     $(window).on('resize orientationchange', function() {
       $('.center').slick('resize');
