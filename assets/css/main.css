@@ -771,15 +771,31 @@ display: inline-block;
     line-height: 30px;
     font-size: 2.6em;
   }
-#arma_tribuna  .content-section:hover{
+/* #arma_tribuna  .cont-img:hover{
   opacity: .5;
   }
 
-  #arma_tribuna  .content-section:hover .product-detail{
+  #arma_tribuna  .description-prod:hover{
+    opacity: .5;
+    } */
+.bg-opacity:hover{
+    opacity: .5;
+}
+/* #arma_tribuna .bg-opacity:hover .description-prod{
+    opacity: .5;
+}
+#arma_tribuna .bg-opacity:hover .cont-img{
+    opacity: .5;
+} */
+.product-detail:hover .bg-opacity{
+    opacity: .5;
+}
+   #arma_tribuna  .content-section:hover .product-detail{
       opacity: 1;
     }
+
   #arma_tribuna .cont-img {
-    height: 335px;
+    height: 290px;
 }
 #arma_tribuna .cont-img.bg-gray {
   background: #efefef;
@@ -792,6 +808,22 @@ display: inline-block;
 }
 .description-prod.gray {
     background: #efefef;
+}
+.cont-slider {
+    background: #ebebeb;
+    padding: 0 70px;
+}
+#arma_tribuna .arrow-left {
+    left: 25px;
+    opacity: 1;
+}
+#arma_tribuna .arrow-right {
+    right: 25px;
+    opacity: 1;
+}
+#arma_tribuna .slick-prev.slick-arrow {
+    left: -90px;
+    /* top: 190px; */
 }
 .slider-productos {
 
@@ -833,6 +865,11 @@ display: inline-block;
   .bg-flipper {
     background-image: url(../img/section/mobile/prepara_tribuna.jpg);
   }
+  .day-timer {
+    font-family: hand;
+    font-size: 0.6em;
+}
+
 }
 
 /* fin media css para desktop */

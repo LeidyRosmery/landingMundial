@@ -2,7 +2,7 @@
     $('.slider-drag1').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
-  
+
       fade: true,
       cssEase: 'linear',
       arrows: true,
@@ -58,12 +58,11 @@ swipe:true,
     ]
   });
   $('.slider-productos').slick({
-  centerMode: true,
   infinite: true,
   centerPadding: '60px',
   slidesToShow: 3,
   autoplay:true,
-  // arrows:true;
+  arrows:true,
   speed: 500,
   variableWidth: false,
 });
