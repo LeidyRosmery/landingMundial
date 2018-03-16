@@ -159,7 +159,7 @@ content: '';
   background-color: #ebebeb;
   font-family: miso;
   line-height: 65px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding: 0px 10px;
   margin-bottom: 70px;
 }
@@ -167,8 +167,20 @@ content: '';
 font-family: hand;
 font-size: .8em;
 }
+.text-timer{
+  width:35.5%;
+  display: inline-block;
+  position: relative;
+}
+.text-timer.left{
+left: 6px;
+}
+.text-timer.right{
+right: 2px;
+}
 .paralelogramo {
-
+width:25%;
+display: inline-block;
   background: #0072CE;
       color: #fff;
       font-size: 23px;
@@ -290,8 +302,8 @@ font-size: .8em;
 
 .cont-img {
   background: #fff;
-  height: 60vh;
-  position: relative;
+      height: 360px;
+      position: relative;
 }
 
 .call-action {
@@ -301,13 +313,16 @@ font-size: .8em;
   display: block;
   font-size: 2em;
   text-align: center;
-  width: 71%;
-  height: 55px;
-  line-height: 52px;
+  width: 55%;
+  height: 65px;
+  line-height: 65px;
   margin: 0 auto;
-  padding: 3px 10px;
+  /* padding: 0px 20px; */
 }
-
+.call-action.more{
+  height: 50px;
+  line-height: 50px;
+}
 .bg-flipper {
   background-image: url(../img/section/mobile/prepara_tribuna.jpg);
   background-position: center;
@@ -326,14 +341,14 @@ font-size: .8em;
 }
 .txt-title{
   color: #DD0021;
-  position: absolute;
-  font-family: miso;
-  font-size: 2em;
-  z-index: 1;
-  padding: 30px 0;
-  /* margin: 0 auto; */
-  width: 70%;
-  margin: 0 15%;
+      position: absolute;
+      font-family: miso;
+      font-size: 2.5em;
+      z-index: 1;
+      padding: 30px 0;
+      /* margin: 0 auto; */
+      width: 80%;
+      margin: 0 10%;
 }
 
 .bg-change {
@@ -365,7 +380,7 @@ font-size: .8em;
 .product-detail{
   background: #DD0021;
   color: #fff;
-  padding: 8px 13px;
+  padding: 13px 13px;
   font-family: miso;
   font-size: 1.8em;
   line-height: 2.3em;
@@ -380,7 +395,7 @@ font-size: .8em;
   opacity: .5;
 }
 #arma_tribuna .cont-img{
-  height: 30vh;
+  height: 175px;
       text-align: center;
       background: #ebebeb;
 }
@@ -414,17 +429,17 @@ opacity:1;
 }
 
 #demuestra_hincha img {
-  width: 60%;
-  display: inline-block;
-  top: 33%;
-  position: relative;
+  width: 80%;
+      display: inline-block;
+      top: 33%;
+      position: relative;
 }
 
 .title-tribuna {
   height: 100px;
-  font-size: 1.8em;
-  padding-top: 13px;
-  line-height: 1.2em;
+      font-size: 2.3em;
+      padding-top: 13px;
+      line-height: 1.2em;
 }
 
 .title-tribuna p:nth-child(1) {
@@ -446,7 +461,7 @@ opacity:1;
 .header-fixture p:nth-child(1) {
   color: #dd0021;
   font-family: miso;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .header-fixture p:nth-child(2) {
@@ -484,10 +499,10 @@ opacity:1;
 
 .title-section {
   font-family: miso;
-  font-size: 1.5em;
-  padding: 5px 0;
-  line-height: 20px;
-  text-align: center;
+      font-size: 1.7em;
+      padding: 5px 0;
+      line-height: 20px;
+      text-align: center;
 }
 
 .title-section.title-white {
@@ -501,7 +516,7 @@ opacity:1;
 }
 .cont-header{
   font-family: miso;
-      font-size: 2em;
+      font-size: 2.3em;
       text-align: center;
       line-height: 20px;
       color: #fff;
@@ -515,7 +530,7 @@ opacity:1;
 }
 #estamos_devuelta .cont-img ,
 #tribuna_terraza .cont-img{
-  height: 50vh;
+  height: 315px;
 }
 
 #slider-fixture .arrow-left ,#slider-fixture .arrow-right{
@@ -528,6 +543,7 @@ line-height: 40px;
 }
 .cont-header p:nth-child(2){
 font-family: hand;
+font-size: .8em;
 }
 
 @keyframes anim-bag {
@@ -661,6 +677,9 @@ font-family: hand;
     padding: 0 20px;
     text-align: center;
   }
+  .text-timer{
+    width: auto;
+  }
   .paralelogramo{
     width: 160px;
 font-size: 1.5em;
@@ -675,7 +694,10 @@ display: inline-block;
     font-size: 3em;
     color: #fff;
 }
-
+#estamos_devuelta .cont-header p:nth-child(2) {
+    font-family: miso;
+    font-size: .8em;
+}
 .title-tribuna{
   font-size: 3em;
       height: 145px;
@@ -689,9 +711,16 @@ display: inline-block;
   color: #dd0021;
   font-family: hand;
 } */
+.product-detail{
+  position: absolute;
+  top: 170px;
+  padding: 0px 25px;
+  left: 111px;
+  opacity: 0;
+}
 #camino_rusia .cont-img {
 
-    height: 70vh;
+    height: 425px;
 }
 
 .header-fixture {
@@ -704,17 +733,17 @@ display: inline-block;
 }
 .header-fixture:before {
   content: '';
-      position: absolute;
-      border-width: 18px;
-      transition: all 1s;
-      border-color: #DD0021 #ebebeb #ebebeb #ebebeb;
-      bottom: 48.8vh;
-      border-style: solid;
-      right: 0;
-      left: 0;
-      width: 0;
-      height: 0;
-      margin: 0 auto;
+  position: absolute;
+  border-width: 18px;
+  transition: all 1s;
+  border-color: #DD0021 #ebebeb #ebebeb #ebebeb;
+  bottom: 290px;
+  border-style: solid;
+  right: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  margin: 0 auto;
 }
   .txt-red{
     font-family: hand;
@@ -735,21 +764,34 @@ display: inline-block;
   /* css section */
   /* ******************************************* */
   .cont-img {
-    height: 70vh;
+    height: 425px;
     background: #DEEFFE;
   }
   .cont-header{
-    line-height: 40px;
+    line-height: 30px;
     font-size: 2.6em;
   }
+#arma_tribuna  .content-section:hover{
+  opacity: .5;
+  }
+
+  #arma_tribuna  .content-section:hover .product-detail{
+      opacity: 1;
+    }
   #arma_tribuna .cont-img {
-    height: 50vh;
+    height: 335px;
+}
+#arma_tribuna .cont-img.bg-gray {
+  background: #efefef;
 }
 #arma_tribuna .content-section {
     opacity: 1;
 }
 .description-prod {
     opacity: 1;
+}
+.description-prod.gray {
+    background: #efefef;
 }
 .slider-productos {
 
@@ -775,9 +817,9 @@ display: inline-block;
   }
   .call-action {
     width: 60%;
-    font-size: 2em;
-    line-height: 1.8em;
-    height: 50px;
+    font-size: 2.4em;
+    line-height: 61px;
+    height: 61px;
   }
   .title-section {
     font-size: 1.8em;
