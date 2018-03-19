@@ -1,7 +1,7 @@
-<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/assets/css/animate.css?v=zlspnmaagz">
-<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/assets/css/slick.css?v=zlspnmaagz">
-<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/assets/css/slick-theme.css?v=zlspnmaagz">
-<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/assets/css/main.css?v=zlspnmaagz">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/assets/css/animate.css?v=zgxdqwopxx">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/assets/css/slick.css?v=zgxdqwopxx">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/assets/css/slick-theme.css?v=zgxdqwopxx">
+<link rel="stylesheet" href="/static/categorias/contenidoEstatico/landings/assets/css/main.css?v=zgxdqwopxx">
 <section class="banner-main">
   <div class="row">
     <div class="banner-home text-center">
@@ -40,7 +40,7 @@
       <div class="text-timer left text-center pad-0">YA SOLO FALTAN </div>
       <div class="paralelogramo pad-0">
       <div class="content-paralelogramo"   style="transform:skew(20deg)" >
-        <span > 92</span>
+        <span class="number-timer" > 92</span>
         <span class="day-timer">días</span>
       </div>
       </div>
@@ -50,7 +50,7 @@
       <span class="text-timer">YA SOLO FALTAN</span>
       <div class="paralelogramo pad-0">
         <div class="content-paralelogramo"   style="transform:skew(20deg)" >
-        <span>92</span>
+        <span class="number-timer">92</span>
         <span class="day-timer">días</span>
        </div>
 
@@ -226,53 +226,64 @@
     </div>
   </div>
 </div>
-<div class="pad-0  col-xs-12 pad-left pad-right hidden-xs hidden-sm">
+<div class="pad-0  col-xs-12  hidden-xs hidden-sm">
   <div class="" id="arma_tribuna">
     <div class="title-tribuna text-center">
       <p>LOS IMPERDIBLES PARA ARMAR</p>
       <p>tu tribuna</p>
     </div>
-    <div class="slider-productos">
+    <div class="cont-slider">
+      <div class="slider-productos">
       <div class="content-section">
-        <div class="cont-img ">
-          <img class="img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/prod1.png" alt="">
+        <div class="bg-opacity">
+          <div class=" cont-img bg-gray ">
+            <img class="img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/prod1.png" alt="">
+          </div>
+          <div class=" gray description-prod text-center">
+              <p class="product-name" >LG Smart TV LED HD 32"</p>
+              <p class="product-price" >S/. 1200.00</p>
+          </div>
         </div>
-        <div class="description-prod text-center">
-            <p class="product-name" >LG Smart TV LED HD 32"</p>
-            <p class="product-price" >S/. 1200.00</p>
-            <!-- <a  class="product-detail" href="">VER PRODUCTO ></a> -->
-        </div>
+          <a  class="product-detail" href="">VER PRODUCTO ></a>
       </div>
       <div class="content-section">
-        <div class="cont-img">
-          <img class="img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/prod2.png" alt="">
+        <div class="bg-opacity">
+          <div class=" cont-img ">
+            <img class="img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/prod2.png" alt="">
+          </div>
+          <div class="  description-prod text-center">
+              <p class="product-name" >LG Smart TV LED HD 32"</p>
+              <p class="product-price" >S/. 1200.00</p>
+          </div>
         </div>
-        <div class="description-prod text-center">
-            <p class="product-name" >LG Smart TV LED HD 32"</p>
-            <p class="product-price" >S/. 1200.00</p>
-            <!-- <a  class="product-detail" href="">VER PRODUCTO ></a> -->
-        </div>
+          <a  class="product-detail" href="">VER PRODUCTO ></a>
       </div>
       <div class="content-section">
-        <div class="cont-img">
-          <img class="img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/prod3.png" alt="">
+        <div class="bg-opacity ">
+          <div class=" cont-img bg-gray">
+            <img class="img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/prod3.png" alt="">
+          </div>
+          <div class=" gray description-prod text-center">
+              <p class="product-name" >LG Smart TV LED HD 32"</p>
+              <p class="product-price" >S/. 1200.00</p>
+          </div>
         </div>
-        <div class="description-prod text-center">
-            <p class="product-name" >LG Smart TV LED HD 32"</p>
-            <p class="product-price" >S/. 1200.00</p>
-            <!-- <a  class="product-detail" href="">VER PRODUCTO ></a> -->
-        </div>
+          <a  class="product-detail" href="">VER PRODUCTO ></a>
       </div>
       <div class="content-section">
-        <div class="cont-img">
-          <img class="img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/prod4.png" alt="">
+        <div class="bg-opacity ">
+          <div class=" cont-img ">
+            <img class="img-responsive" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/prod4.png" alt="">
+          </div>
+          <div class="description-prod   text-center">
+              <p class="product-name" >LG Smart TV LED HD 32"</p>
+              <p class="product-price" >S/. 1200.00</p>
+          </div>
         </div>
-        <div class="description-prod text-center">
-            <p class="product-name" >LG Smart TV LED HD 32"</p>
-            <p class="product-price" >S/. 1200.00</p>
-            <!-- <a  class="product-detail" href="">VER PRODUCTO ></a> -->
-        </div>
+          <a  class="product-detail" href="">VER PRODUCTO ></a>
       </div>
+
+    </div>
     </div>
   </div>
 </div>
@@ -281,8 +292,8 @@
   <div class="col-xs-12 col-md-6 pad-0 pad-bottom pad-left">
     <div class="content-section" id="estamos_devuelta">
       <div class="cont-header">
-        <p>TU ALBÚM Y FIGURITAS</p>
-        <p>en Sodimac</p>
+        <p>¡ ESTAMOS DE VUELTA !</p>
+        <p>Luego de 36 años la blanquirroja regresa a Panini</p>
       </div>
       <div class="cont-img ">
         <img class="img-responsive" style="height: 100%;" src="/static/categorias/contenidoEstatico/landings/assets/img/section/mobile/estamos_devuelta.jpg" alt="">
@@ -310,19 +321,22 @@
   </div>
   </div>
 </div>
-<script src="/static/categorias/contenidoEstatico/landings/assets/jquery.min.js?v=zlspnmaagz"></script>
-<script src="/static/categorias/contenidoEstatico/landings/assets/js/owl.carousel.min.js?v=zlspnmaagz"></script>
-<script src="/static/categorias/contenidoEstatico/landings/assets/js/slick.js?v=zlspnmaagz"></script>
-<script src="/static/categorias/contenidoEstatico/landings/assets/js/carrusel.js?v=zlspnmaagz"></script>
-<script src="/static/categorias/contenidoEstatico/landings/assets/js/app.js?v=zlspnmaagz"></script>
+<script src="/static/categorias/contenidoEstatico/landings/assets/jquery.min.js?v=zgxdqwopxx"></script>
+<script src="/static/categorias/contenidoEstatico/landings/assets/js/owl.carousel.min.js?v=zgxdqwopxx"></script>
+<script src="/static/categorias/contenidoEstatico/landings/assets/js/slick.js?v=zgxdqwopxx"></script>
+<script src="/static/categorias/contenidoEstatico/landings/assets/js/carrusel.js?v=zgxdqwopxx"></script>
+<script src="/static/categorias/contenidoEstatico/landings/assets/js/app.js?v=zgxdqwopxx"></script>
 <script>
   $(document).ready(function() {
 
-    $('.slick-prev').html('<img class="arrow arrow-left glyphicon glyphicon-menu-left" src="/static/categorias/contenidoEstatico/landings/assets/img/section/arrow-left.svg"></img>');
-    $('.slick-next').html('<img class="arrow arrow-right glyphicon glyphicon-menu-right" src="/static/categorias/contenidoEstatico/landings/assets/img/section/arrow-right.svg"></img>');
+    // $('.slick-prev').html('<img class="arrow arrow-left glyphicon glyphicon-menu-left" src="/static/categorias/contenidoEstatico/landings/assets/img/section/arrow-left.svg"></img>');
+    // $('.slick-next').html('<img class="arrow arrow-right glyphicon glyphicon-menu-right" src="/static/categorias/contenidoEstatico/landings/assets/img/section/arrow-right.svg"></img>');
     $('#arma_tribuna .slick-prev').html('<img class="arrow arrow-left glyphicon glyphicon-menu-left" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/arrow-left.svg"></img>');
     $('#arma_tribuna .slick-next').html('<img class="arrow arrow-right glyphicon glyphicon-menu-right" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/arrow-right.svg"></img>');
     $('#slider-fixture .slick-prev').html('<img class="arrow arrow-left glyphicon glyphicon-menu-left" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/arrow-left.svg"></img>');
     $('#slider-fixture .slick-next').html('<img class="arrow arrow-right glyphicon glyphicon-menu-right" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/arrow-right.svg"></img>');
+    $('#arma_tribuna .slick-prev').html('<img class="arrow arrow-left glyphicon glyphicon-menu-left" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/arrow-left.svg"></img>');
+    $('#arma_tribuna .slick-next').html('<img class="arrow arrow-right glyphicon glyphicon-menu-right" src="/static/categorias/contenidoEstatico/landings/assets/img/productos/arrow-right.svg"></img>');
+
   });
 </script>

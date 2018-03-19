@@ -2,76 +2,66 @@
     $('.slider-drag1').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
-
       fade: true,
       cssEase: 'linear',
       arrows: true,
       swipe: false,
-      autoplaySpeed: 8000,
-      autoplay: true,
+      prevArrow: '<img class="arrow arrow-left " src="/static/categorias/contenidoEstatico/landings/assets/img/section/arrow-left.svg"></img>',
+      nextArrow: '<img class="arrow arrow-right " src="/static/categorias/contenidoEstatico/landings/assets/img/section/arrow-right.svg"></img>',
       vertical: false,
       infinite: true,
       responsive: [{
           breakpoint: 992,
           settings: {
             slidesToShow: 1,
-            autoplay: true,
-            dots:false,
+            dots: false,
           }
         },
         {
           breakpoint: 480,
           settings: {
             slidesToShow: 1,
-            autoplay: true,
-            dots:true,
-swipe:true,
+            dots: true,
+            swipe: true,
           }
         }
       ]
     });
 
     $('.center').slick({
-    centerMode: true,
-    infinite: true,
-    centerPadding: '60px',
-    slidesToShow: 1,
-    autoplay:true,
-    speed: 500,
-    variableWidth: false,
-    responsive: [{
-        breakpoint: 992,
-        settings: {
-          slidesToShow:3,
-          centerMode:false,
-                  doots:true,
+      centerMode: true,
+      infinite: true,
+      centerPadding: '60px',
+      slidesToShow: 1,
+      // autoplay:true,
+      speed: 500,
+      variableWidth: false,
+      responsive: [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 3,
+            centerMode: true,
+            doots: true,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            doots: false,
+          }
         }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          doots:false,
-          autoplay:true,
-        }
-      }
-    ]
-  });
-  $('.slider-productos').slick({
-  infinite: true,
-  centerPadding: '60px',
-  slidesToShow: 3,
-  autoplay:true,
-  arrows:true,
-  speed: 500,
-  variableWidth: false,
-});
-  // $('.center').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-  //   console.log('beforeChange', currentSlide, nextSlide);
-  // });
-  // $('.center').on('afterChange', function(event, slick, currentSlide){
-  //   console.log('afterChange', currentSlide);
-  // });
+      ]
+    });
+    $('.slider-productos').slick({
+      infinite: true,
+      centerPadding: '60px',
+      slidesToShow: 3,
+      arrows: true,
+      speed: 500,
+      variableWidth: false,
+    });
+
 
     $(window).on('resize orientationchange', function() {
       $('.center').slick('resize');

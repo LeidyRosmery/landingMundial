@@ -158,14 +158,18 @@ content: '';
 .timer{
   background-color: #ebebeb;
   font-family: miso;
-  line-height: 65px;
-  font-size: 1.5em;
+  font-size: 1.7em;
   padding: 0px 10px;
   margin-bottom: 70px;
 }
 .day-timer{
 font-family: hand;
-font-size: .8em;
+font-size: 1em;
+}
+.number-timer {
+    /* font-size: 1em; */
+    font-weight: 800;
+    font-size: 1.5em;
 }
 .text-timer{
   width:35.5%;
@@ -198,15 +202,21 @@ display: inline-block;
 
 .arrow-left, .arrow-right {
   top: 95px;
+  position: absolute;
   width: 47px;
   height: 75px;
   z-index: 800;
   padding: 17px 14px;
   background: #efefef;
 }
-
+.slider-drag1 .arrow-left ,
+.slider-drag1 .arrow-right{
+    top: 310px;
+      height: 50px;
+      padding: 0px 14px;
+}
 .arrow-left {
-  left: 40px;
+  left: 15px;
 }
 .slick-dotted.slick-slider {
     margin-bottom: 50px!important;
@@ -216,7 +226,7 @@ display: inline-block;
 }
 
 .arrow-right {
-  right: 67px;
+  right: 15px;
 }
 
 .contenedor-logo {
@@ -410,13 +420,13 @@ display: inline-block;
 /* slider-productos */
 #arma_tribuna .arrow-left, #arma_tribuna .arrow-right {
     background: none;
-    top: -63px;
+    top: -20px;
 }
 #arma_tribuna .arrow-left {
     left: 25px;
 }
 #arma_tribuna .arrow-right {
-    right:  50px;
+    right:  25px;
 }
 #arma_tribuna img.img-responsive {
   width: 80%;
@@ -429,7 +439,7 @@ opacity:1;
 }
 
 #demuestra_hincha img {
-  width: 80%;
+  width: 70%;
       display: inline-block;
       top: 33%;
       position: relative;
@@ -530,12 +540,18 @@ opacity:1;
 }
 #estamos_devuelta .cont-img ,
 #tribuna_terraza .cont-img{
-  height: 315px;
+  height: 260px;
 }
 
 #slider-fixture .arrow-left ,#slider-fixture .arrow-right{
 background: none;
-top: -50px;
+top: 205px;
+}
+#slider-fixture .arrow-left {
+left:0px;
+}
+,#slider-fixture .arrow-right{
+  right:0px;
 }
 
 .cont-header p:nth-child(1){
@@ -654,23 +670,33 @@ font-size: .8em;
   }
   .arrow-left, .arrow-right {
     top: 205px;
-    left: 0;
     opacity: 0;
     width: 50px;
     height: 75px;
     padding: 17px 14px;
     background: rgba(255, 255, 255, 0.7);
   }
-  span.arrow-left {
-    left: 7px;
+  .arrow-left {
+    left: 15px;
   }
-  span.arrow-right {
-    right: 13px;
+  .arrow-right {
+    right: 15px;
   }
+  .number-timer {
+    /* font-size: 1em; */
+    font-weight: 100;
+    font-size: 1em;
+}
   .slider-header {
     height: 455px;
     z-index: 23;
   }
+  .slider-drag1 .arrow-left, .slider-drag1 .arrow-right {
+    /* top: 210px;  change safari*/
+    top: 380px;
+    height: 75px;
+    padding: 17px 14px;
+}
   .timer{
     margin-bottom: 35px;
     font-size: 2.6em;
@@ -713,9 +739,9 @@ display: inline-block;
 } */
 .product-detail{
   position: absolute;
-  top: 170px;
+  top: 160px;
   padding: 0px 25px;
-  left: 111px;
+  left: 130px;
   opacity: 0;
 }
 #camino_rusia .cont-img {
@@ -771,6 +797,9 @@ display: inline-block;
     line-height: 30px;
     font-size: 2.6em;
   }
+  #estamos_devuelta .cont-img, #tribuna_terraza .cont-img {
+    height: 315px;
+}
 /* #arma_tribuna  .cont-img:hover{
   opacity: .5;
   }
@@ -848,11 +877,14 @@ display: inline-block;
     background-image: url(../img/section/mobile/demuestra_hincha.jpg);
   }
   .call-action {
-    width: 60%;
+    width: 255px;
     font-size: 2.4em;
     line-height: 61px;
     height: 61px;
   }
+  .call-action.more {
+    width: 255px;
+}
   .title-section {
     font-size: 1.8em;
   }
