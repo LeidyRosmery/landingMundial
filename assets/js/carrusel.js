@@ -6,8 +6,8 @@
       cssEase: 'linear',
       arrows: true,
       swipe: false,
-      prevArrow: '<img class="arrow arrow-left " src="/static/categorias/contenidoEstatico/landings/assets/img/section/arrow-left.svg"></img>',
-      nextArrow: '<img class="arrow arrow-right " src="/static/categorias/contenidoEstatico/landings/assets/img/section/arrow-right.svg"></img>',
+      prevArrow: '<img class="arrow arrow-left " src="/assets/img/section/arrow-left.svg"></img>',
+      nextArrow: '<img class="arrow arrow-right " src="/assets/img/section/arrow-right.svg"></img>',
       vertical: false,
       infinite: true,
       responsive: [{
