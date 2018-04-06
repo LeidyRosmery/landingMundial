@@ -4,10 +4,10 @@
       slidesToScroll: 1,
       fade: true,
       cssEase: 'linear',
-      arrows: true,
+      arrows: false,
       swipe: false,
-      prevArrow: '<img class="arrow arrow-left " src="/assets/img/section/arrow-left.svg"></img>',
-      nextArrow: '<img class="arrow arrow-right " src="/assets/img/section/arrow-right.svg"></img>',
+      prevArrow: '<img class="arrow arrow-left " src="/static/categorias/contenidoEstatico/landings/Mundial_Rusia_2018/assets/img/section/arrow-left.svg"></img>',
+      nextArrow: '<img class="arrow arrow-right " src="/static/categorias/contenidoEstatico/landings/Mundial_Rusia_2018/assets/img/section/arrow-right.svg"></img>',
       vertical: false,
       infinite: true,
       responsive: [{
@@ -16,13 +16,12 @@
             slidesToShow: 1,
             dots: false,
           }
-        },
-        {
-          breakpoint: 480,
+        },        {
+          breakpoint: 768,
           settings: {
             slidesToShow: 1,
-            dots: true,
-            swipe: true,
+            dots: false,
+            swipe: false,
           }
         }
       ]

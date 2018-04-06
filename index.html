@@ -2730,8 +2730,8 @@ color: white !important;
 
           <script type="text/javascript">
             /**
-                                                                                                                                                                                                                                                                                                                                                                        $( ".sub-nav.jq-subNav>li:first-child").before( "<li class='firstHover' ><a  href='http://www.sodimac.com.pe/sodimac-pe/content/a260001/Cyber-Peru-Sodimac' target='_self' title='Cyber Days'>Cyber Days</a></li>" );
-                                                                                                                                                                                                                                                                                                                                                                        console.log("prueba1");**/
+                                                                                                                                                                                                                                                                                                                                                                                                                                    $( ".sub-nav.jq-subNav>li:first-child").before( "<li class='firstHover' ><a  href='http://www.sodimac.com.pe/sodimac-pe/content/a260001/Cyber-Peru-Sodimac' target='_self' title='Cyber Days'>Cyber Days</a></li>" );
+                                                                                                                                                                                                                                                                                                                                                                                                                                    console.log("prueba1");**/
 
 
             $(".categoryDropdown1 > .sub-nav.jq-subNav>li:first-child").before("<li class='firstHover' ><a  href='http://www.sodimac.com.pe/sodimac-pe/CMR/N-1z141ek' target='_self' title='Imbatibles CMR'>Imbatibles CMR</a></li>");
@@ -3106,25 +3106,26 @@ color: white !important;
         <section class="banner-main">
           <div class="row">
             <div class="banner-home text-center">
+              <div class="cinta hidden-sm hidden-md hidden-lg">PREPÁRATE PARA RECIBIR LA FIESTA DEL FÚTBOL</div>
               <div class="slider-drag1 vitrina">
                 <div class="slider-header slider-header-1 b-lazy">
-                  <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/content/a1740004/tribuna-oficina?cid=ctghom13453">
+                  <a class="link-banner" style="display:block ; height:100%" href="http://www.sodimac.com.pe/sodimac-pe/content/a1740006/prepara-tu-tribuna?cid=ctghom13449" title="Prepara tu tribuna" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_PreparaTuTribuna')">
                     <div class="contenedor-logo">
-                      <img class="logo-banner img-responsive" src="/assets/img/banner/logo-banner.png" alt="logo-banner">
+                      <img class="logo-banner img-responsive" src="/assets/img/banner/logo-slider.png" alt="logo-banner">
                     </div>
                   </a>
                 </div>
                 <div class="slider-header slider-header-2 b-lazy">
-                  <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/content/a1740003/tribuna-obra?cid=ctghom13473">
+                  <a class="link-banner" style="display:block ; height:100%" href="http://www.sodimac.com.pe/sodimac-pe/content/a1740003/tribuna-obra?cid=ctghom13473">
                     <div class="contenedor-logo">
-                      <img class="logo-banner img-responsive" src="/assets/img/banner/logo-banner.png" alt="logo-banner">
+                      <img class="logo-banner img-responsive" src="/assets/img/banner/logo-slider.png" alt="logo-banner">
                     </div>
                   </a>
                 </div>
                 <div class="slider-header slider-header-3 b-lazy">
-                  <a class="link-banner" href="http://www.sodimac.com.pe/sodimac-pe/product/1719785/Set-de-mesa-Lapices-60x40cm-y-2-sillas/?cid=vtrlnd12370">
+                  <a class="link-banner" style="display:block ; height:100%" href="http://www.sodimac.com.pe/sodimac-pe/product/1719785/Set-de-mesa-Lapices-60x40cm-y-2-sillas/?cid=vtrlnd12370">
                     <div class="contenedor-logo">
-                      <img class="logo-banner img-responsive" src="/assets/img/banner/logo-banner.png" alt="logo-banner">
+                      <img class="logo-banner img-responsive" src="/assets/img/banner/logo-slider.png" alt="logo-banner">
                     </div>
                   </a>
                 </div>
@@ -3134,7 +3135,7 @@ color: white !important;
               <div class="text-timer left text-center pad-0">YA SOLO FALTAN </div>
               <div class="paralelogramo pad-0">
                 <div class="content-paralelogramo" style="transform:skew(20deg)">
-                  <span class="number-timer"> 75</span>
+                  <span id="days" class="number-timer"> </span>
                   <span class="day-timer">días</span>
                 </div>
               </div>
@@ -3144,160 +3145,49 @@ color: white !important;
               <span class="text-timer">YA SOLO FALTAN</span>
               <div class="paralelogramo pad-0">
                 <div class="content-paralelogramo" style="transform:skew(20deg)">
-                  <span class="number-timer">75</span>
+                  <span id="daysdesktops" class="number-timer"></span>
                   <span class="day-timer">días</span>
                 </div>
-
               </div>
               <span class="text-timer">PARA EL REGRESO DE <span class="txt-red">la blanquirroja</span> AL MUNDIAL</span>
             </div>
         </section>
         <!-- fin section banner-home -->
-        <div class="pad-0  col-xs-12  pad-left pad-right">
+        <!-- <div class="pad-0  col-xs-12  pad-left pad-right"> -->
+        <div class="contenido">
           <div class="row" style="margin:0">
-            <div class="col-xs-12 col-md-8 pad-0">
-              <div class="col-xs-12 col-md-6 pad-0  pad-bottom">
-                <a href="" style="display:block" >
-                  <div class="content-section" id="convierte_oficina">
+            <div class="col-xs-12  col-md-8 pad-0">
+              <div class="col-xs-12 col-sm-6  col-md-6 pad-0 pad-right-desktop pad-bottom">
+                <a href="http://www.sodimac.com.pe/sodimac-pe/content/a1740002/tribuna-terraza?cid=ctghom13455" style="display:block" title="Equipa tu terraza como la tribuna mundialistaa" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_TribunaTerraza')">
+                  <div class="content-section" id="convierte_obra">
                     <div class="cont-img">
-                      <img class="hidden-md hidden-sm hidden-lg img-responsive" src="/assets/img/section/mobile/oficina_mb.jpg" alt="Convierte tu oficina en una tribuna">
-                      <img class="hidden-xs  img-responsive" src="/assets/img/section/desktop/oficina.jpg" style="height:100%" alt="Convierte tu oficina en una tribuna">
+                      <!-- <img class="hidden-md hidden-lg img-responsive" src="/assets/img/section/mobile/terraza_mb.jpg" style="" alt="Equipa tu terraza como la tribuna mundialista">
+                      <img class="hidden-xs hidden-sm img-responsive" src="/assets/img/section/desktop/terraza.jpg" style="" alt="Equipa tu terraza como la tribuna mundialista"> -->
+                      <img class="hidden-md  hidden-lg img-responsive" src="/assets/img/section/mobile/terraza_mb1.jpg" style="" alt="Contagie el aliento por la selección en la obra">
+                      <img class="hidden-xs hidden-sm  img-responsive" src="/assets/img/section/desktop/terraza1.jpg" style="" alt="Contagie el aliento por la selección en la obra">
                     </div>
                     <div class="text-section">
-                      <p class="title-section title-white"> CONVIERTE TU OFICINA EN UNA TRIBUNA </p>
-                      <a class="call-action " href="" >LEER MÁS</a>
+                      <p class="title-section title-white">EQUIPA TU TERRAZA COMO LA TRIBUNA BLANQUIRROJA </p>
+                      <a class="call-action " href="http://www.sodimac.com.pe/sodimac-pe/content/a1740002/tribuna-terraza?cid=ctghom13455" title="Equipa tu terraza como la tribuna mundialistaa" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_TribunaTerraza')">LEER MÁS</a>
                     </div>
                   </div>
                 </a>
               </div>
-              <div class="col-xs-12 col-md-6 pad-0  pad-left pad-right pad-bottom">
-                <a href="" style="display:block" >
+              <div class="col-xs-12 col-sm-6 col-md-6 pad-0  pad-left-desktop  pad-bottom">
+                <a href="http://www.sodimac.com.pe/sodimac-pe/content/a1740004/tribuna-sala?cid=ctghom13453" style="display:block" title="Haz que tu sala como una tribuna de la seleccion" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_TribunaSala')">
                   <div class="content-section" id="convierte_sala">
                     <div class="cont-img">
-                      <img class="hidden-md hidden-sm hidden-lg img-responsive" src="/assets/img/section/mobile/sala_mb.jpg" alt="Haz de tu sala una tribuna">
-                      <img class="hidden-xs  img-responsive" src="/assets/img/section/desktop/sala.jpg" style="height:100%" alt="Haz de tu sala una tribuna">
+                      <img class="hidden-md hidden-lg img-responsive" src="/assets/img/section/mobile/sala_mb1.jpg" style="" alt="Haz que tu sala como una tribuna de la seleccion">
+                      <img class="hidden-xs  hidden-sm   img-responsive" src="/assets/img/section/desktop/sala1.jpg" style="" alt="Haz que tu sala como una tribuna de la seleccion">
                     </div>
                     <div class="text-section">
-                      <p class="title-section title-white"> HAZ DE TU SALA UNA TRIBUNA </p>
-                      <a class="call-action " href="" title="Demuestra que eres hincha" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_DemuestraQueEresHincha')">LEER MÁS</a>
+                      <p class="title-section title-white"> HAZ QUE TU SALA VIBRE COMO UNA TRIBUNA DE LA SELECCIÓN </p>
+                      <a class="call-action" href="http://www.sodimac.com.pe/sodimac-pe/content/a1740004/tribuna-sala?cid=ctghom13453" title="Haz que tu sala como una tribuna de la seleccion" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_TribunaSala')">LEER MÁS</a>
                     </div>
                   </div>
                 </a>
               </div>
               <div class="hidden-md hidden-lg col-xs-12 col-md-4 pad-0 pad-bottom ">
-                  <div class="content-section" id="camino_rusia">
-                    <div class="cont-img ">
-                      <div class="header-fixture text-center">
-                        <p>CAMINO A RUSIA</p>
-                        <p>- Partidos amistosos -</p>
-                      </div>
-                      <div class="content-fixture">
-                        <div class="bag-dots row" style="margin:0">
-                          <div class="col-xs-3 text-center pad-0">
-                            <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="">
-                            <p class="fixture-country">PERU</p>
-                          </div>
-                          <div class="col-xs-6 text-center pad-0">
-                            <p class="time-fixture">29 MAYO</p>
-                            <p class="place-fixture">/ Lima</p>
-                          </div>
-                          <div class="col-xs-3 text-center pad-0">
-                            <img class="img-flag" src="/assets/img/fixture/flag_escocia.png" alt="">
-                            <p class="fixture-country">ESCOCIA</p>
-                          </div>
-                        </div>
-                        <div class="bag-dots row" style="margin:0">
-                          <div class="col-xs-3 text-center text-center pad-0">
-                            <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="">
-                            <p class="fixture-country">PERU</p>
-                          </div>
-                          <div class="col-xs-6 text-center pad-0">
-                            <p class="time-fixture">03 JUNIO</p>
-                            <p class="place-fixture">/ Altach</p>
-                          </div>
-                          <div class="col-xs-3 text-center text-center pad-0">
-                            <img class="img-flag" src="/assets/img/fixture/flag_arabia.png" alt="">
-                            <p class="fixture-country">ARABIA</p>
-                          </div>
-                        </div>
-                        <div class="bag-dots row" style="margin:0">
-                          <div class="col-xs-3 text-center pad-0">
-                            <img class="img-flag" src="/assets/img/fixture/flag_suecia.png" alt="">
-                            <p class="fixture-country">SUECIA</p>
-                          </div>
-                          <div class="col-xs-6 text-center pad-0">
-                            <p class="time-fixture">09 JUNIO</p>
-                            <p class="place-fixture">/ Estocolmo</p>
-                          </div>
-                          <div class="col-xs-3 text-center pad-0">
-                            <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="">
-                            <p class="fixture-country">PERU</p>
-                          </div>
-                        </div>
-                        <div class="bag-dots row" style="margin:0">
-                          <div class="col-xs-3 text-center text-center pad-0">
-                            <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="">
-                            <p class="fixture-country">PERU</p>
-                          </div>
-                          <div class="col-xs-6 text-center pad-0">
-                            <p class="time-fixture">03 JUNIO</p>
-                            <p class="place-fixture">/ Altach</p>
-                          </div>
-                          <div class="col-xs-3 text-center text-center pad-0">
-                            <img class="img-flag" src="/assets/img/fixture/flag_arabia.png" alt="">
-                            <p class="fixture-country">ARABIA</p>
-                          </div>
-                        </div>
-                        <div class="bag-dots row" style="margin:0">
-                          <div class="col-xs-3 text-center pad-0">
-                            <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="">
-                            <p class="fixture-country">PERU</p>
-                          </div>
-                          <div class="col-xs-6 text-center pad-0">
-                            <p class="time-fixture">29 MAYO</p>
-                            <p class="place-fixture">/ Lima</p>
-                          </div>
-                          <div class="col-xs-3 text-center pad-0">
-                            <img class="img-flag" src="/assets/img/fixture/flag_escocia.png" alt="">
-                            <p class="fixture-country">ESCOCIA</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-              </div>
-              <div class="col-xs-12 col-md-6 pad-0  pad-bottom">
-                <a href="http://www.sodimac.com.pe/sodimac-pe/content/a1740005/demuestra-que-eres-hincha?cid=ctghom13450" style="display:block" title="Demuestra que eres hincha" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_DemuestraQueEresHincha')">
-                  <div class="content-section" id="convierte_obra">
-                    <div class="cont-img">
-                      <img class="hidden-md hidden-sm hidden-lg img-responsive" src="/assets/img/section/mobile/obra_mb.jpg" alt="Vive la pasión del fútbol en la obra">
-                      <img class="hidden-xs  img-responsive" src="/assets/img/section/desktop/obra.jpg" style="height:100%" alt="Vive la pasión del fútbol en la obra">
-                    </div>
-                    <div class="text-section">
-                      <p class="title-section title-white"> VIVE LA PASIÓN DEL FÚTBOL EN LA OBRA </p>
-                      <a class="call-action " href="http://www.sodimac.com.pe/sodimac-pe/content/a1740005/demuestra-que-eres-hincha?cid=ctghom13450" title="Demuestra que eres hincha" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_DemuestraQueEresHincha')">LEER MÁS</a>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="col-xs-12 col-md-6 pad-0 pad-left pad-right pad-bottom">
-                <a href="http://www.sodimac.com.pe/sodimac-pe/content/a1740005/demuestra-que-eres-hincha?cid=ctghom13450" style="display:block" title="Demuestra que eres hincha" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_DemuestraQueEresHincha')">
-
-                  <div class="content-section" id="convierte_obra">
-                    <div class="cont-img">
-                      <img class=" hidden-sm hidden-md hidden-lg img-responsive" src="/assets/img/section/mobile/terraza_mb.jpg" alt="Equipa tu tribuna mundialista">
-                      <img class="hidden-xs  img-responsive" src="/assets/img/section/desktop/terraza.jpg" style="height:100%" alt="Equipa tu tribuna mundialista">
-                    </div>
-                    <div class="text-section">
-                      <p class="title-section title-white"> EQUIPA TU TRIBUNA MUNDIALISTA </p>
-                      <a class="call-action " href="http://www.sodimac.com.pe/sodimac-pe/content/a1740005/demuestra-que-eres-hincha?cid=ctghom13450" title="Demuestra que eres hincha" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_DemuestraQueEresHincha')">LEER MÁS</a>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="hidden-xs hidden-sm col-md-4 pad-0 ">
                 <div class="content-section" id="camino_rusia">
                   <div class="cont-img ">
                     <div class="header-fixture text-center">
@@ -3307,103 +3197,213 @@ color: white !important;
                     <div class="content-fixture">
                       <div class="bag-dots row" style="margin:0">
                         <div class="col-xs-3 text-center pad-0">
-                          <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="">
+                          <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="Peru">
                           <p class="fixture-country">PERU</p>
                         </div>
                         <div class="col-xs-6 text-center pad-0">
-                          <p class="time-fixture">29 MAYO</p>
-                          <p class="place-fixture">/ Lima</p>
+                          <p class="time-fixture">2 - 0</p>
+                          <p class="place-fixture"> Miami</p>
                         </div>
                         <div class="col-xs-3 text-center pad-0">
-                          <img class="img-flag" src="/assets/img/fixture/flag_escocia.png" alt="">
+                          <img class="img-flag" src="/assets/img/fixture/flag_croacia.png" alt="Croacia">
+                          <p class="fixture-country">CROACIA</p>
+                        </div>
+                      </div>
+                      <div class="bag-dots row" style="margin:0">
+                        <div class="col-xs-3 text-center text-center pad-0">
+                          <img class="img-flag" src="/assets/img/fixture/flag_islandia.png" alt="Islandia">
+                          <p class="fixture-country">ISLANDIA</p>
+                        </div>
+                        <div class="col-xs-6 text-center pad-0">
+                          <p class="time-fixture"> 1 - 3 </p>
+                          <p class="place-fixture">Nueva Jersey</p>
+                        </div>
+                        <div class="col-xs-3 text-center text-center pad-0">
+                          <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="Peru">
+                          <p class="fixture-country">PERU</p>
+                        </div>
+                      </div>
+                      <div class="bag-dots row" style="margin:0">
+                        <div class="col-xs-3 text-center pad-0">
+                          <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="Peru">
+                          <p class="fixture-country">PERÚ</p>
+                        </div>
+                        <div class="col-xs-6 text-center pad-0">
+                          <p class="time-fixture">29 MAYO</p>
+                          <p class="place-fixture">Lima</p>
+                        </div>
+                        <div class="col-xs-3 text-center pad-0">
+                          <img class="img-flag" src="/assets/img/fixture/flag_escocia.png" alt="Escocia">
                           <p class="fixture-country">ESCOCIA</p>
                         </div>
                       </div>
                       <div class="bag-dots row" style="margin:0">
                         <div class="col-xs-3 text-center text-center pad-0">
-                          <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="">
-                          <p class="fixture-country">PERU</p>
+                          <img class="img-flag" src="/assets/img/fixture/flag_arabia.png" alt="Arabia S.">
+                          <p class="fixture-country"> ARABIA S.</p>
                         </div>
                         <div class="col-xs-6 text-center pad-0">
                           <p class="time-fixture">03 JUNIO</p>
-                          <p class="place-fixture">/ Altach</p>
+                          <p class="place-fixture">Altach</p>
                         </div>
                         <div class="col-xs-3 text-center text-center pad-0">
-                          <img class="img-flag" src="/assets/img/fixture/flag_arabia.png" alt="">
-                          <p class="fixture-country">ARABIA</p>
+                          <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="Peru">
+                          <p class="fixture-country">PERÚ</p>
                         </div>
                       </div>
                       <div class="bag-dots row" style="margin:0">
                         <div class="col-xs-3 text-center pad-0">
-                          <img class="img-flag" src="/assets/img/fixture/flag_suecia.png" alt="">
+                          <img class="img-flag" src="/assets/img/fixture/flag_suecia.png" alt="Suecia">
                           <p class="fixture-country">SUECIA</p>
                         </div>
                         <div class="col-xs-6 text-center pad-0">
                           <p class="time-fixture">09 JUNIO</p>
-                          <p class="place-fixture">/ Estocolmo</p>
+                          <p class="place-fixture">Gotemburgo</p>
                         </div>
                         <div class="col-xs-3 text-center pad-0">
-                          <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="">
-                          <p class="fixture-country">PERU</p>
-                        </div>
-                      </div>
-                      <div class="bag-dots row" style="margin:0">
-                        <div class="col-xs-3 text-center text-center pad-0">
-                          <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="">
-                          <p class="fixture-country">PERU</p>
-                        </div>
-                        <div class="col-xs-6 text-center pad-0">
-                          <p class="time-fixture">03 JUNIO</p>
-                          <p class="place-fixture">/ Altach</p>
-                        </div>
-                        <div class="col-xs-3 text-center text-center pad-0">
-                          <img class="img-flag" src="/assets/img/fixture/flag_arabia.png" alt="">
-                          <p class="fixture-country">ARABIA</p>
-                        </div>
-                      </div>
-                      <div class="bag-dots row" style="margin:0">
-                        <div class="col-xs-3 text-center pad-0">
-                          <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="">
-                          <p class="fixture-country">PERU</p>
-                        </div>
-                        <div class="col-xs-6 text-center pad-0">
-                          <p class="time-fixture">29 MAYO</p>
-                          <p class="place-fixture">/ Lima</p>
-                        </div>
-                        <div class="col-xs-3 text-center pad-0">
-                          <img class="img-flag" src="/assets/img/fixture/flag_escocia.png" alt="">
-                          <p class="fixture-country">ESCOCIA</p>
+                          <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="Peru">
+                          <p class="fixture-country">PERÚ</p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
 
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 pad-0 pad-right-desktop pad-bottom">
+                <a href="http://www.sodimac.com.pe/sodimac-pe/content/a1740003/tribuna-obra?cid=ctghom13473" style="display:block" title="Contagie el aliento por la selección en la obra" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_TribunaObra')">
+                  <div class="content-section" id="convierte_obra">
+                    <div class="cont-img">
+                      <img class="hidden-md  hidden-lg img-responsive" src="/assets/img/section/mobile/obra_mb1.jpg" style="" alt="Contagie el aliento por la selección en la obra">
+                      <img class="hidden-xs hidden-sm  img-responsive" src="/assets/img/section/desktop/obra1.jpg" style="" alt="Contagie el aliento por la selección en la obra">
+                    </div>
+                    <div class="text-section">
+                      <p class="title-section title-white">CONTAGIE EL ALIENTO POR LA SELECCIÓN EN LA OBRA</p>
+                      <a class="call-action" href="http://www.sodimac.com.pe/sodimac-pe/content/a1740003/tribuna-obra?cid=ctghom13473" title="Contagie el aliento por la selección en la obra" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_TribunaObra')">LEER MÁS</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 pad-0 pad-left-desktop  pad-bottom">
+                <a href="http://www.sodimac.com.pe/sodimac-pe/content/a1740007/tribuna-oficina?cid=ctghom13454" style="display:block;height:100%" title="Convierte tu oficina en la mejor tribuna mundialista" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_TribunaOficina')">
+                  <div class="content-section" id="convierte_oficina">
+                    <div class="cont-img">
+                      <img class="hidden-md  hidden-lg img-responsive" src="/assets/img/section/mobile/oficina_mb1.jpg" alt="Convierte tu oficina en la mejor tribuna mundialista">
+                      <img class="hidden-xs hidden-sm img-responsive" src="/assets/img/section/desktop/oficina1.jpg" alt="Convierte tu oficina en la mejor tribuna mundialista">
+
+                    </div>
+                    <div class="text-section">
+                      <p class="title-section title-white"> CONVIERTE TU OFICINA EN LA MEJOR TRIBUNA MUNDIALISTA </p>
+                      <a class="call-action" href="http://www.sodimac.com.pe/sodimac-pe/content/a1740007/tribuna-oficina?cid=ctghom13454" title="Convierte tu oficina en la mejor tribuna mundialista" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_TribunaOficina')">LEER MÁS</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="hidden-xs hidden-sm col-md-4 pad-0 pad-left">
+              <div class="content-section" id="camino_rusia">
+                <div class="cont-img ">
+                  <div class="header-fixture text-center">
+                    <p>CAMINO A RUSIA</p>
+                    <p>- Partidos amistosos -</p>
+                  </div>
+                  <div class="content-fixture">
+                    <div class="bag-dots row" style="margin:0">
+                      <div class="col-xs-3 text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="Peru">
+                        <p class="fixture-country">PERU</p>
+                      </div>
+                      <div class="col-xs-6 text-center pad-0">
+                        <p class="time-fixture">2 - 0</p>
+                        <p class="place-fixture"> Miami</p>
+                      </div>
+                      <div class="col-xs-3 text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_croacia.png" alt="Croacia">
+                        <p class="fixture-country">CROACIA</p>
+                      </div>
+                    </div>
+                    <div class="bag-dots row" style="margin:0">
+                      <div class="col-xs-3 text-center text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_islandia.png" alt="Islandia">
+                        <p class="fixture-country">ISLANDIA</p>
+                      </div>
+                      <div class="col-xs-6 text-center pad-0">
+                        <p class="time-fixture"> 1 - 3 </p>
+                        <p class="place-fixture">Nueva Jersey</p>
+                      </div>
+                      <div class="col-xs-3 text-center text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="Peru">
+                        <p class="fixture-country">PERU</p>
+                      </div>
+                    </div>
+                    <div class="bag-dots row" style="margin:0">
+                      <div class="col-xs-3 text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="Peru">
+                        <p class="fixture-country">PERÚ</p>
+                      </div>
+                      <div class="col-xs-6 text-center pad-0">
+                        <p class="time-fixture">29 MAYO</p>
+                        <p class="place-fixture">Lima</p>
+                      </div>
+                      <div class="col-xs-3 text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_escocia.png" alt="Escocia">
+                        <p class="fixture-country">ESCOCIA</p>
+                      </div>
+                    </div>
+                    <div class="bag-dots row" style="margin:0">
+                      <div class="col-xs-3 text-center text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_arabia.png" alt="Arabia S.">
+                        <p class="fixture-country"> ARABIA S.</p>
+                      </div>
+                      <div class="col-xs-6 text-center pad-0">
+                        <p class="time-fixture">03 JUNIO</p>
+                        <p class="place-fixture">Altach</p>
+                      </div>
+                      <div class="col-xs-3 text-center text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="Peru">
+                        <p class="fixture-country">PERÚ</p>
+                      </div>
+                    </div>
+                    <div class="bag-dots row" style="margin:0">
+                      <div class="col-xs-3 text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_suecia.png" alt="Suecia">
+                        <p class="fixture-country">SUECIA</p>
+                      </div>
+                      <div class="col-xs-6 text-center pad-0">
+                        <p class="time-fixture">09 JUNIO</p>
+                        <p class="place-fixture">Gotemburgo</p>
+                      </div>
+                      <div class="col-xs-3 text-center pad-0">
+                        <img class="img-flag" src="/assets/img/fixture/flag_peru.png" alt="Peru">
+                        <p class="fixture-country">PERÚ</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-
-
         </div>
-
-
-        <div class="pad-0  col-xs-12  ">
-           <div class="section-panini">
-             <div class="col-xs-offset-6 pad-0  col-md-offset-8 col-md-4">
-               <div class="cont-panini text-center">
-                 <p class="hidden-md hidden-lg">RECUERDA EL PASO DE LA SELECCIÓN EN PANINI</p>
-                 <p class="hidden-xs  hidden-sm"> RECUERDA EL PASO DE LA BLANQUIRROJA EN EL ALBÚM PANINI</p>
-                 <a class="btt-panini">CÓMPRALO AQUÍ </a>
-               </div>
-             </div>
-           </div>
+        <div class="pad-0  col-xs-12" style="position:relative;">
+          <a href="http://www.sodimac.com.pe/sodimac-pe/content/a1740009/historia-panini?cid=ctghom13452" style="display:block ; height:100%" title="Recuerda el paso de la blanquirroja en el album Panini" onclick="ga('send', 'event', '2018_4_Landing_Home_Mundial', 'Click', 'Boton_HistoriaPanini')">
+            <div class="section-panini">
+              <div class="col-xs-offset-6 pad-0 col-sm-offset-8 col-sm-3  col-md-offset-8 col-md-4" style="position:absolute; top:0;">
+                <div class="cont-panini text-center">
+                  <p class="hidden-md hidden-lg">RECUERDA EL PASO DE LA SELECCIÓN EN PANINI</p>
+                  <p class="hidden-xs  hidden-sm"> RECUERDA EL PASO DE LA BLANQUIRROJA EN EL ÁLBUM PANINI</p>
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/content/a1740009/historia-panini?cid=ctghom13452" class="btt-panini">LEER MÁS </a>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
-
 
         <script src="/assets/jquery.min.js?v=1"></script>
         <script src="/assets/js/owl.carousel.min.js?v=1"></script>
         <script src="/assets/js/slick.js?v=1"></script>
         <script src="/assets/js/carrusel.js?v=1"></script>
         <script src="/assets/js/app.js?v=1"></script>
+          <script src="/assets/js/timer.js?v=1"></script>
         <script>
           $(document).ready(function() {
             $('#arma_tribuna .slick-prev').html('<img class="arrow arrow-left glyphicon glyphicon-menu-left" src="/assets/img/productos/arrow-left.svg"></img>');

@@ -76,28 +76,43 @@
 }
 
 .contenido {
-  padding-left: 15px;
-  background: #e4e4e4;
-  padding-right: 15px;
+  /* padding-left: 15px;   padding-mobile*/
+  background: #fff;
+  /* padding-right: 15px padding-mobile; */
+}
+
+@media (min-width: 600px) {
+  .contenido {
+    /* width: 570px; */
+    width: 600px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 @media (min-width: 768px) {
   .contenido {
+    /* width: 570px; */
     width: 750px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
 @media (min-width: 992px) {
   .contenido {
-    width: 970px;
-    padding-left: 0;
-    padding-right: 0;
+    /* width: 970px; con padding a los lados */
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .contenido {
-    width: 1030px;
+    width: 1300px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -157,13 +172,25 @@ a:hover {
 .slick-prev, .slick-next {
   z-index: 20;
 }
+.cinta.hidden-md.hidden-lg {
+  font-size: 20px;
+  padding: 7px;
+  text-align: center;
+  z-index: 40;
+  width: 100%;
+  left: 0px;
+  background: #fff;
+  position: absolute;
+  font-weight: bold;
+  font-family: miso;
+}
 
 .timer {
   background-color: #ebebeb;
   font-family: miso;
   font-size: 1.7em;
   padding: 0px 10px;
-  margin-bottom: 70px;
+  margin-bottom: 15px;
 }
 
 .day-timer {
@@ -243,9 +270,9 @@ a:hover {
 
 .contenedor-logo {
   width: 152px;
-  position: relative;
-  top: 23px;
-  left: 33px;
+      position: relative;
+      top: 60px;
+      left: 25px;
 }
 
 .slick-dots {
@@ -293,19 +320,11 @@ a:hover {
 }
 
 .slider-header-1 {
-  background-image: url(../img/banner/mobile/banner1-mobile.jpg);
+  background-image: url(../img/banner/mobile/banner-mobile.jpg);
 }
 
-.slider-header-2 {
-  background-image: url(../img/banner/mobile/banner2-mobile.jpg);
-}
-
-.slider-header-3 {
-  background-image: url(../img/banner/mobile/banner3-mobile.jpg);
-}
-
-.slider-header-4 {
-  background-image: url(../img/banner/mobile/banner4-mobile.jpg);
+.btt-panini:focus{
+  color:#fff;
 }
 
 /* fin css banner */
@@ -319,31 +338,28 @@ a:hover {
 .content-section {
   position: relative;
   overflow: hidden;
+  /* padding-left: 15px; */
 }
 
 .cont-img {
   background: #fff;
-  height: 360px;
+  /* height: 360px; */
   position: relative;
 }
 
 .call-action {
   background-color: #dd0021;
   color: #fff;
-  font-family: miso;
   display: block;
-  font-size: 1.7em;
+  font-size: 1.2em;
   text-align: center;
-  width: 45%;
-  height: 45px;
-  line-height: 45px;
+  width: 40%;
+  height: 39px;
+  line-height: 39px;
   margin: 0 auto;
   position: absolute;
-  bottom: 20px;
-  left: 27.5%;
-  /* padding: 0px 20px; */
-
-  /* padding: 0px 20px; */
+  bottom: 18px;
+  left: 30%;
 }
 
 .call-action.more {
@@ -484,16 +500,15 @@ a:hover {
 }
 
 .header-fixture p:nth-child(2) {
-  font-family: miso;
-  font-size: 2em;
+  font-size: 1.2em;
   line-height: 45px;
 }
 
 .content-fixture {
   padding: 0 10px;
-  font-family: miso;
+  /* font-family: miso; */
   padding-bottom: 33px;
-  font-size: 1.8em;
+  font-size: 1.3em;
 }
 
 .img-flag {
@@ -508,8 +523,8 @@ a:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../img/section/mobile/panini_mb.jpg);
-  display: flex;
+  background-image: url(../img/section/mobile/panini_mb1.jpg);
+  /* display: flex; */
   height: 200px;
   align-items: center;
 }
@@ -517,27 +532,26 @@ a:hover {
 .cont-panini {
   color: #fff;
   padding: 10px;
-  /* background: #EBEBEB; */
 }
 
 .btt-panini {
   display: inline-block;
   color: #fff;
-  padding: 10px 19px;
+  height: 39px;
+  line-height: 39px;
   background: #dd0021;
-  font-family: miso;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #fff;
+  width: 128px;
 }
 
 .cont-panini p {
   font-size: 18px;
-  line-height: 19px;
-  color: #000;
+  line-height: 27px;
+  color: #fff;
   padding: 12px 0;
   font-family: miso;
-  font-size: 1.7em;
-  font-weight: bold;
+  font-size: 1.8em;
 }
 
 .place-fixture {
@@ -559,24 +573,24 @@ a:hover {
   font-family: miso;
   font-size: 2em;
   padding: 5px 0;
-  line-height: 25px;
+  line-height: 27px;
   text-align: center;
 }
 
 .title-section.title-white {
   color: #000;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   padding: 5% 0;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .text-section {
   position: absolute;
   bottom: 0px;
   width: 100%;
-  height: 40%;
-  background-color: rgba(255, 255, 255, .6);
+  height: 135px;
+  background-color: rgba(255, 255, 255, .8);
 }
 
 .cont-header {
@@ -691,16 +705,48 @@ a:hover {
   .hidden-sm {
     display: none !important;
   }
+  .slider-header-1 {
+    background-image: url(../img/banner/desktop/banner-desktop.jpg);
+}
+  .pad-right-desktop {
+    padding-right: 8px;
+  }
+  .pad-left-desktop {
+    padding-left: 8px;
+  }
+  .cont-panini {
+    color: #fff;
+    padding: 20px;
+  }
+  .text-section {
+    height: 35%;
+  }
+  .timer {
+    margin-bottom: 15px;
+  }
   .cont-img {
-    height: 440px;
+    /* height: 440px; */
   }
   .contenedor-logo {
-    width: 220px;
-    left: 14%;
+    width: 164px;
+        left: 16%;
+        top: 42px;
   }
   .slider-header {
-    height: 440px;
+    height: 305px;
+        background-size: 100%;
+
   }
+  .section-panini{
+        background-image: url(../img/section/desktop/panini1.jpg);
+  }
+  .pad-left {
+    padding-left: 15px;
+  }
+  /* .pad-right{
+    padding-right: 15px;
+
+  } */
   #demuestra_hincha img {
     width: 50%;
     top: 28%;
@@ -751,8 +797,8 @@ a:hover {
   .contenedor-logo {
     width: 290px;
     position: relative;
-    top: 58px;
-    left: 131px;
+    top: 0px;
+    left: 165px;
   }
   .slick-prev:before, .slick-next:before {
     content: ''!important;
@@ -802,7 +848,7 @@ a:hover {
     padding: 17px 14px;
   }
   .timer {
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     font-size: 2.6em;
     padding: 0 20px;
     text-align: center;
@@ -821,7 +867,7 @@ a:hover {
     font-size: 3em;
   }
   .header-fixture p:nth-child(1) {
-    font-size: 3em;
+    font-size: 2.2em;
     color: #fff;
   }
   #estamos_devuelta .cont-header p:nth-child(2) {
@@ -849,7 +895,7 @@ a:hover {
     opacity: 0;
   }
   #camino_rusia .cont-img {
-    height: 615px;
+    height: 606px;
   }
   .header-fixture {
     margin-bottom: 57px;
@@ -864,7 +910,7 @@ a:hover {
     border-width: 18px;
     transition: all 1s;
     border-color: #DD0021 #ebebeb #ebebeb #ebebeb;
-    bottom: 480px;
+    bottom: 470px;
     border-style: solid;
     right: 0;
     left: 0;
@@ -960,10 +1006,11 @@ a:hover {
     padding: 15px 0 0;
   }
   .pad-bottom {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
   }
   .pad-right {
-    padding-right: 15px;
+    /* padding-right: 15px; */
+    padding-right: 0px;
   }
   .pad-left {
     padding-left: 15px;
@@ -973,18 +1020,21 @@ a:hover {
   }
   .call-action {
     width: 151px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 40px;
     height: 40px;
     left: 143px;
-    bottom: 10px;
+    bottom: 20px;
   }
   .call-action.more {
     width: 255px;
   }
   .title-section.title-white {
-    font-size: 1.8em;
+    font-size: 2.1em;
+    width: 320px;
+    font-weight: normal;
     padding: 2% 0;
+    line-height: 27px;
   }
   .lightWord {
     font-size: 1.5em;
@@ -999,11 +1049,33 @@ a:hover {
     font-family: hand;
     font-size: 0.6em;
   }
+  .section-panini {
+    background-image: url(../img/section/desktop/panini1.jpg);
+  }
   .cont-panini {
-
-    padding: 70px;
+    padding-top: 40px;
     /* background: #EBEBEB; */
-}
+  }
+  .btt-panini {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #fff;
+  }
+  .cont-panini p {
+    /* font-size: 18px; */
+    line-height: 27px;
+    color: #fff;
+    padding: 12px 0;
+    font-family: miso;
+    font-size: 2.1em;
+    font-weight: normal;
+  }
+  .pad-right-desktop {
+    padding-right: 7.5px;
+  }
+  .pad-left-desktop {
+    padding-left: 7.5px;
+  }
 }
 
 /* fin media css para desktop */
